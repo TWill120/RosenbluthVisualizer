@@ -20,6 +20,7 @@ Software for editing Python
 Be sure to also have the following information from an elastic scattering experiment. The corresponding variables that will be used in the program have also been included: 
 
 Information --- Corresponding variable in the code
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q^2 --- q2
 Beam energy --- E
@@ -27,6 +28,7 @@ Beam energy after collision --- E1
 Angle of spectrometer --- angle
 Cross-section of the experiment --- S
 Error of the datapoint --- Err
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Walkthrough: 
