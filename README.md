@@ -23,10 +23,15 @@ Information --- Corresponding variable in the code
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q^2 --- q2
+
 Beam energy --- E
+
 Beam energy after collision --- E1
+
 Angle of spectrometer --- angle
+
 Cross-section of the experiment --- S
+
 Error of the datapoint --- Err
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -79,6 +84,7 @@ Step-by-step
 - Right-bound limit. 
 - Downward limit. 
 - Upward limit. 
+It should be noted that the limits of the plot will be determined by the last plot entered via plotGe() or plotGeAdjusted().
 
 7. After every data point has been plotted, use the matplotlib package to plot the data fit. In this program it is imported as plt.plot. Plot the data like so: 
 plt.plot(G_E Fit List, G_M Fit List, Color/Symbol Code, label= “INSERT LABEL HERE”, markersize= “INSERT MARKER SIZE HERE”) 
@@ -89,4 +95,4 @@ leg.get_frame().set_linewidth(0.0)
 
 9. Call either plt.show() to display the graph or plt.savefig(“FILE NAME HERE . png”)
 
-If done properly, it should produce a plot with colored bands that overlap somewhere in the middle. The data fit should run through that overlap area. If not, something has gone wrong.
+If done properly, it should produce a plot with colored bands that overlap somewhere in the middle. The data fit should run through that overlap area. If not, something has gone wrong. See attached images for examples.
