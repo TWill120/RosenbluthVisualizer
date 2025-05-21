@@ -87,4 +87,6 @@ plt.plot(G_E Fit List, G_M Fit List, Color/Symbol Code, label= “INSERT LABEL H
 leg = plt.legend(loc=1,fontsize="INSERT FONT SIZE HERE”) 
 leg.get_frame().set_linewidth(0.0) 
 
-9. Call either plt.show() to display the graph or plt.savefig(“FILE NAME HERE . png”) 
+9. Call either plt.show() to display the graph or plt.savefig(“FILE NAME HERE . png”)
+
+If done properly, it should produce a plot with colored bands that overlap somewhere in the middle. The data fit should run through that overlap area. If not, something has gone wrong.
